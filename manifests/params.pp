@@ -134,7 +134,7 @@ class prometheus::params {
   $postgres_exporter_package_ensure = 'latest'
   $postgres_exporter_package_name = 'postgres_exporter'
   $postgres_exporter_user = 'posgres'
-  $postgres_exporter_version = '0.3.0'
+  $postgres_exporter_version = '0.4.1'
   $postgres_exporter_dsn = 'postgresql://localhost:5432/postgres'
   $package_ensure = 'latest'
   $package_name = 'prometheus'
